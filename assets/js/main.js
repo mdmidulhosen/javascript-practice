@@ -1,6 +1,25 @@
 
 
 
+function multiply(){
+    var first  = document.getElementById('firstNumber').value;
+    var second = document.getElementById('secondNumber').value; 
+
+     document.getElementById("result").innerHTML = first * second;
+}
+
+function devide(){
+    var first  = document.getElementById('firstNumber').value;
+    var second = document.getElementById('secondNumber').value; 
+
+     document.getElementById("result").innerHTML = first / second;
+}
+
+// var today = new Date()
+// var crhis = new Date(today.getFullYear())
+// console.log(crhis)
+
+
 /*Find 1st January be a Sunday between a range of years */
 
 // for(year = 2014 ; year <=2050; year++){
