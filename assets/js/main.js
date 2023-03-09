@@ -1,5 +1,15 @@
 
 
+
+/*Find 1st January be a Sunday between a range of years */
+
+// for(year = 2014 ; year <=2050; year++){
+//     var today = new Date(year, 0, 1);
+//     if(today.getDay() === 0){
+//         console.log("1st january is being sunday" + year)
+//     }
+// }
+
 /*find leap year*/
 
 // var year = 2024/4;
