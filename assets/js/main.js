@@ -1,12 +1,27 @@
 
-var side1 = 5;
-var side2 = 6;
-var side3 = 7;
 
-var s = (side1 + side2 + side3)*2;
-var area = Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+/*find leap year*/
 
-console.log(area);
+// var year = 2024/4;
+// var my = Number.isInteger(year);
+
+// if(my == true){
+//  console.log("Leap year")
+// }else{
+//     console.log("Not Leap year")
+// }
+
+
+/*The area of a triangle*/
+
+// var side1 = 5;
+// var side2 = 6;
+// var side3 = 7;
+
+// var s = (side1 + side2 + side3)*2;
+// var area = Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+
+// console.log(area);
 
 /*Print a page*/
 
