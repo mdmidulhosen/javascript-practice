@@ -1,19 +1,29 @@
-
-
-
-function multiply(){
-    var first  = document.getElementById('firstNumber').value;
-    var second = document.getElementById('secondNumber').value; 
-
-     document.getElementById("result").innerHTML = first * second;
+function myfunc(bb){
+    if(bb === null || bb === undefined || bb.substring(0, 2) === "py"){
+        return bb;
+    }else{
+        return "py"+bb;
+    }
 }
 
-function devide(){
-    var first  = document.getElementById('firstNumber').value;
-    var second = document.getElementById('secondNumber').value; 
+console.log(myfunc("python"));
+console.log(myfunc("thon"));
 
-     document.getElementById("result").innerHTML = first / second;
-}
+/*multiply and devide*/
+
+// function multiply(){
+//     var first  = document.getElementById('firstNumber').value;
+//     var second = document.getElementById('secondNumber').value; 
+
+//      document.getElementById("result").innerHTML = first * second;
+// }
+
+// function devide(){
+//     var first  = document.getElementById('firstNumber').value;
+//     var second = document.getElementById('secondNumber').value; 
+
+//      document.getElementById("result").innerHTML = first / second;
+// }
 
 // var today = new Date()
 // var crhis = new Date(today.getFullYear())
