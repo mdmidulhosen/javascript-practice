@@ -1,10 +1,28 @@
-var cutting = "Midul The Boss";
 
-var cut = cutting.slice(10,14);
+/* Check whether a string starts with 'Java' and false otherwise */
 
-var test = cut+" The "+cut;
+function test(name){
+    var dekhi = name.slice(0, 4)
+    
+    if(dekhi === "java"){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(test("javeascript"));
+console.log(test("javascript"));
 
-console.log(test);
+
+/*Create a new string from a given string taking the last 3 characters and added at both the front and back */
+
+// var cutting = "Midul The Boss";
+
+// var cut = cutting.slice(10,14);
+
+// var test = cut+" The "+cut;
+
+// console.log(test);
 
 /*Create a new string from a given string changing the position of first and last characters*/
 // var main = "swift";
@@ -135,4 +153,4 @@ console.log(test);
 // dayIs();
 
 // console.log("Time Is =",hour,":",mins,":",sec)
-// console.log("Date is",date,".",month,".",year )
+// console.log("Date is",date,".",month,".",year );
