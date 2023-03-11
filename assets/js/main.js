@@ -1,13 +1,30 @@
-function myfunc(bb){
-    if(bb === null || bb === undefined || bb.substring(0, 2) === "py"){
-        return bb;
-    }else{
-        return "py"+bb;
-    }
-}
+/*Create a new string from a given string changing the position of first and last characters*/
+var main = "swift";
+var first = main.slice(0,1);
+var second = main.slice(4,5);
+var mid = main.slice(1,4)
+var final = second+mid+first;
 
-console.log(myfunc("python"));
-console.log(myfunc("thon"));
+console.log(final);
+
+/* Remove a character at the specified position of a given string and return the new string */
+// var str = "Hi I am Midul Hosen";
+// var cut = str.slice(8, str.length); 
+
+// console.log(cut);
+
+/* add a character into a string */
+
+// function myfunc(bb){
+//     if(bb === null || bb === undefined || bb.substring(0, 2) === "py"){
+//         return bb;
+//     }else{
+//         return "py"+bb;
+//     }
+// }
+
+// console.log(myfunc("python"));
+// console.log(myfunc("thon"));
 
 /*multiply and devide*/
 
