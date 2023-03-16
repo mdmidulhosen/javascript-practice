@@ -1,17 +1,42 @@
 
+
+/*random numner generate*/
+// console.log(Math.round(Math.random()* 100 + 1))
+
+/*squire rute*/
+// console.log(Math.sqrt(12))
+
+/*odd even number found */
+
+// var number = 9;
+
+// if(number % 2 == 0){
+//     console.log("Even");
+// }else{
+//     console.log("odd");
+// }
+
+// console.log(number)
+
+
+/*operators*/
+// var a = 10 + (30/5) * 5;
+// console.log(a);
+
+
 /* Check whether a string starts with 'Java' and false otherwise */
 
-function test(name){
-    var dekhi = name.slice(0, 4)
+// function test(name){
+//     var dekhi = name.slice(0, 4)
     
-    if(dekhi === "java"){
-        return true;
-    }else{
-        return false;
-    }
-}
-console.log(test("javeascript"));
-console.log(test("javascript"));
+//     if(dekhi === "java"){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+// console.log(test("jave ascript"));
+// console.log(test("javascript"));
 
 
 /*Create a new string from a given string taking the last 3 characters and added at both the front and back */
